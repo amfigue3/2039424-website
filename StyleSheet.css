@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <body bgcolor="#DCDCDC">
+    <title>Embedded Style Sheet</title>
+  </head>
+  
+  <body>
+    <h1>New Employee Form</h1>
+
+    <form>
+      <h3>Personal Information</h3>
+
+      First Name: <input type="text" name="fname" placeholder="First Name" /> 
+      Middle Initial: <input type="text" name="mname" placeholder="M.I." size="2" /> 
+      Last Name: <input type="text" name="lname" placeholder="Last Name" />
+      Social Security: <input type="numberic" name="snumber" placeholder="123-45-6789" pattern="[0-9]{3} [0-9]{2} [0-9]{3}" maxlength="9" size="9">
+      <br>
+      Email Address: <input type="text" name="emailtext" size="25" maxlength="50"  placeholder="johndoe@gmail.com"/>
+      <script type="text/javascript">
+      <br><br>
+      Address Line 1: <input type="text" name="addresstext1" placeholder="1234 Adams Street" size="20" max="30" min="2"/>
+      Address Line 2: <input type="text" name="addresstext2" size="20" max="30" min="2"/>
+      City: <input type="text" name="citytext" size="10" max="30" min="2"/>
+     <br>
+      State: <select>
+          <option value="AL">Alabama (AL)</option>
+          <option value="AK">Alaska (AK)</option>
+          <option value="AZ">Arizona (AZ)</option>
+          <option value="AR">Arkansas (AR)</option>
+          <option value="CA">California (CA)</option>
+          <option value="CO">Colorado (CO)</option>
+          <option value="CT">Connecticut (CT)</option>
+          <option value="DE">Delaware (DE)</option>
+          <option value="DC">District Of Columbia (DC)</option>
+          <option value="FL">Florida (FL)</option>
+          <option value="GA">Georgia (GA)</option>
+          <option value="HI">Hawaii (HI)</option>
+          <option value="ID">Idaho (ID)</option>
+          <option value="IL">Illinois (IL)</option>
+          <option value="IN">Indiana (IN)</option>
+          <option value="IA">Iowa (IA)</option>
+          <option value="KS">Kansas (KS)</option>
+          <option value="KY">Kentucky (KY)</option>
+          <option value="LA">Louisiana (LA)</option>
+          <option value="ME">Maine (ME)</option>
+          <option value="MD">Maryland (MD)</option>
+          <option value="MA">Massachusetts (MA)</option>
+          <option value="MI">Michigan (MI)</option>
+          <option value="MN">Minnesota (MN)</option>
+          <option value="MS">Mississippi (MS)</option>
+          <option value="MO">Missouri (MO)</option>
+          <option value="MT">Montana (MT)</option>
+          <option value="NE">Nebraska (NE)</option>
+          <option value="NV">Nevada (NV)</option>
+          <option value="NH">New Hampshire (NH)</option>
+          <option value="NJ">New Jersey (NJ)</option>
+          <option value="NM">New Mexico (NM)</option>
+          <option value="NY">New York (NY)</option>
+          <option value="NC">North Carolina (NC)</option>
+          <option value="ND">North Dakota (ND)</option>
+          <option value="OH">Ohio (OH)</option>
+          <option value="OK">Oklahoma (OK)</option>
+          <option value="OR">Oregon (OR)</option>
+          <option value="PA">Pennsylvania (PA)</option>
+          <option value="PR">Puerto Rico (PR)</option>
+          <option value="RI">Rhode Island (RI)</option>
+          <option value="SC">South Carolina (SC)</option>
+          <option value="SD">South Dakota (SD)</option>
+          <option value="TN">Tennessee (TN)</option>
+          <option value="TX">Texas (TX)</option>
+          <option value="UT">Utah (UT)</option>
+          <option value="VT">Vermont (VT)</option>
+          <option value="VA">Virginia (VA)</option>
+          <option value="WA">Washington (WA)</option>
+          <option value="WV">West Virginia (WV)</option>
+          <option value="WI">Wisconsin (WI)</option>
+          <option value="WY">Wyoming (WY)</option>
+               </select>
+          Zip-Code: <input type="numeric" name="zipcode" size="5" maxlength="5">
+          <br>    
+          <br>
+          <HR noshade>
+            <br>
+
+          <h2>Employment Information </h2>
+
+           <label for="freeform">Please tell us about yourself as well as what position you are interested in in the text box below:</label>
+<br>
+
+<textarea id="freeform" name="freeform" rows="4" cols="50">
+Enter text here...
+</textarea>
+
+             <p><strong>Are you currently employeed?</strong></p>
+                 Yes: <input type="radio" name="employment status">
+                 No: <input type="radio" name="employment status">
+                 <p><strong>Are you interested in a full time or part time position?</strong></p>
+                 Full Time: <input type="radio" name="employment hours">
+                 Part Time: <input type="radio" name="employment hours">
+                 <p><strong>Consent to background check?</strong></p>
+                 Yes: <input type="radio" name="background check">
+                 No: <input type="radio" name="background check">
+                 <p></p>
+          <strong>Please select which days you are available:</strong>
+          <br>
+
+        <input type="checkbox" name="day">Monday
+        <input type="checkbox" name="day">Tuesday
+        <input type="checkbox" name="day">Wednesday
+        <input type="checkbox" name="day">Thursday
+        <input type="checkbox" name="day">Friday
+        <input type="checkbox" name="day">Saturday
+        <input type="checkbox" name="day">Sunday
+      <br>
+
+        <input type="submit" name="submit"> 
+        <input type="reset" name="reset">
+<br>
+<br>
+<br>
+<HR noshade>
+        <address>
+          <b>
+          Gus Wortham Park Golf Course
+          </b><br>
+          7000 Capitol Street <br>
+          Houston, Texas 77095<br>
+          USA<br>
+          <a href="https://www.amazon.com/ap/signin?clientContext=133-1878831-0759242&openid.pape.max_auth_age=900&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fa%2Fcode&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=amzn_chimera_code_based_linking&openid.mode=checkid_setup&marketPlaceId=ATVPDKIKX0DER&language=en_US&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_chimera_code_based_linking&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0">Contact Us</a>
+          </address>
